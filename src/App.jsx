@@ -63,7 +63,11 @@ function App() {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero"
+        style={{
+          backgroundImage: `url(./page1.jpeg)`,
+        }}
+      >
         <h1>Welcome to SAONA</h1>
         <p>
           Experience Mediterranean culinary excellence in the heart of Foodville
