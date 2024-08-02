@@ -1,0 +1,8 @@
+a {
+  font-weight: 500;
+  color: #dedee4;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #edeef5;
+}

@@ -1,0 +1,207 @@
+.hero {
+  background-image: url("./Expansión Grupo Saona - Interiorismo Trenchs Studio _.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4757;
+}
+
+.featured-dishes {
+  padding: 4rem 2rem;
+}
+
+.dish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dish-item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+
+}
+
+.dish-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dish-item p {
+  color: #666;
+}
+
+.dish-item:hover {
+  box-shadow: 12px #fffa;
+  background-color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.show-description-btn {
+  background-color: #5afe6a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.description.hidden {
+  display: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+.add-to-cart-btn {
+   background-color: #5aff6a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.featured-dishes h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-us p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-us p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about-us {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.reservation-form input, .reservation-form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.cta-button, .reservation-form button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+footer {
+  color: #555;
+  text-align: center;
+  padding: 0.5rem;
+}
