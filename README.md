@@ -63,7 +63,7 @@ restaurant-page/
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://TshepisoMLT.github.io/Restaurant-Page/).
+You can view the live demo of the project [here](https://tshepisomlt.github.io/Restaurant-page/).
 
 ## Testing
 
